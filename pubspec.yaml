@@ -1,0 +1,22 @@
+name: edge_tts_dart
+description: A Flutter package for Edge TTS (Text-to-Speech) service.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.1
+  crypto: ^3.0.7
+  http: ^1.1.0
+  path_provider: ^2.1.5
+  uuid: ^4.5.2
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
